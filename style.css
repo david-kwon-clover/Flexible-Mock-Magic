@@ -107,3 +107,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+
+.main-content div:nth-child(2),
+.main-content div:nth-child(5),
+.main-content div:nth-child(8) {
+    flex-grow: 3;
+}
